@@ -149,7 +149,7 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:'Noto Sa
   }
 }
 
-#education { padding-top:24px; }
+#education { padding-top:40px; }
 .education-list .career-item { grid-template-columns:minmax(0,1fr) 220px; }
 .education-list .career-date { grid-column:2; grid-row:1; text-align:right; }
 .education-list .career-item > div { grid-column:1; grid-row:1; }
@@ -197,11 +197,10 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:'Noto Sa
 .project-actions a:hover { color:#071313; border-color:var(--teal); background:var(--teal); }
 .project-actions a:focus-visible { outline:2px solid var(--teal); outline-offset:4px; }
 .placeholder-thumb { display:flex; align-items:center; justify-content:center; color:rgba(224,245,245,.72); font:500 12px 'DM Mono',monospace; letter-spacing:.12em; background:linear-gradient(135deg,#1b3237,#20262d); }
-/* Remove the large section spacers; retain only compact heading insets. */
-main > .ruled { padding-top:24px; padding-bottom:0; }
+/* Restore balanced section spacing without the original large gaps. */
+main > .ruled { padding-top:40px; padding-bottom:40px; }
 main > .ruled .section-label { margin-bottom:20px; }
-main > .intro.section-wrap { min-height:auto; padding-bottom:24px; }
-main > .closing { padding-bottom:24px; }
+main > .intro.section-wrap { min-height:auto; padding-bottom:40px; }
 @media (max-width:800px) {
   .project-thumb { margin:-23px -23px 20px; height:145px; }
 }
