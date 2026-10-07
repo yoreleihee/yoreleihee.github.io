@@ -198,7 +198,7 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:'Noto Sa
 .project-actions a:focus-visible { outline:2px solid var(--teal); outline-offset:4px; }
 .placeholder-thumb { display:flex; align-items:center; justify-content:center; color:rgba(224,245,245,.72); font:500 12px 'DM Mono',monospace; letter-spacing:.12em; background:linear-gradient(135deg,#1b3237,#20262d); }
 /* Restore balanced section spacing without the original large gaps. */
-main > .ruled { padding-top:40px; padding-bottom:40px; }
+main > .ruled { border-top:0; padding-top:40px; padding-bottom:40px; }
 main > .ruled .section-label { margin-bottom:20px; }
 main > .intro.section-wrap { min-height:auto; padding-bottom:40px; }
 @media (max-width:800px) {
