@@ -1,4 +1,4 @@
-document.querySelectorAll('a[href^="#"]:not(#aboutOpen)').forEach((link) => {
+document.querySelectorAll('a[href^="#"]:not(#aboutOpen):not(#footerAboutOpen)').forEach((link) => {
   link.addEventListener('click', (event) => {
     const target = document.querySelector(link.getAttribute('href'));
     if (!target) return;
@@ -18,9 +18,11 @@ function setAboutModal(open) {
   document.body.style.overflow = open ? 'hidden' : '';
 }
 
-aboutOpen?.addEventListener('click', (event) => {
-  event.preventDefault();
-  setAboutModal(true);
+document.querySelectorAll('#aboutOpen, #footerAboutOpen').forEach((link) => {
+  link.addEventListener('click', (event) => {
+    event.preventDefault();
+    setAboutModal(true);
+  });
 });
 aboutClose?.addEventListener('click', () => setAboutModal(false));
 aboutModal?.addEventListener('click', (event) => {

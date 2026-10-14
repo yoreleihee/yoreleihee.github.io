@@ -207,3 +207,25 @@ main > .intro.section-wrap { min-height:auto; padding-bottom:40px; }
 @media (max-width:800px) {
   .project-thumb { margin:-23px -23px 20px; height:145px; }
 }
+
+/* Compact footer: identity and contact links opposite section navigation. */
+.site-footer { display:block; max-width:none; margin:24px 0 0; padding:42px 24px; background:#10151c; font-family:'Noto Sans KR',sans-serif; font-size:14px; line-height:1.6; letter-spacing:0; }
+.footer-inner { max-width:980px; margin:auto; display:flex; align-items:center; justify-content:space-between; gap:32px; }
+.footer-profile h3 { margin:0 0 8px; color:var(--ink); font-size:20px; font-weight:700; }
+.footer-profile p { margin:0 0 14px; color:var(--muted); font-size:13px; }
+.footer-social { display:flex; align-items:center; gap:16px; }
+.footer-social a { display:inline-flex; color:var(--muted); padding:3px; }
+.footer-social svg { width:21px; height:21px; }
+.footer-links { text-align:right; }
+.footer-nav { display:flex; flex-wrap:wrap; justify-content:flex-end; gap:22px; }
+.footer-nav a { color:var(--muted); font:500 12px 'DM Mono',monospace; text-decoration:none; }
+.footer-copyright { margin:8px 0 0; color:var(--muted); font:400 11px 'DM Mono',monospace; }
+.footer-social a:hover,.footer-nav a:hover { color:var(--teal); }
+.site-footer a:focus-visible { outline:2px solid var(--teal); outline-offset:4px; }
+@media (max-width:700px) {
+  .site-footer { padding:32px 22px; }
+  .footer-inner { flex-direction:column; align-items:flex-start; gap:24px; }
+  .footer-links { text-align:left; }
+  .footer-nav { justify-content:flex-start; gap:18px; }
+  .footer-copyright { margin-top:12px; }
+}
