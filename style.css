@@ -191,6 +191,7 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:'Noto Sa
 .project-thumb img.trivia-thumbnail { object-fit:cover; object-position:center 60%; }
 .project-thumb.fall-guys-thumb { background:#bdebf3; }
 .project-thumb img.fall-guys-thumbnail { object-fit:cover; object-position:center top; }
+.project-thumb img.cookie-run-thumbnail { object-fit:cover; object-position:center 25%; }
 .project-thumb img.toolkit-thumbnail { object-fit:contain; object-position:center; padding:14px; }
 .profile-card::after { display:none; }
 .profile-card > img { display:block; width:100%; height:100%; object-fit:cover; object-position:center 35%; }
