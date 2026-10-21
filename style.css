@@ -223,6 +223,15 @@ main > .intro.section-wrap { min-height:auto; padding-bottom:40px; }
 .footer-copyright { margin:8px 0 0; color:var(--muted); font:400 11px 'DM Mono',monospace; }
 .footer-social a:hover,.footer-nav a:hover { color:var(--teal); }
 .site-footer a:focus-visible { outline:2px solid var(--teal); outline-offset:4px; }
+.marketing-table-wrap { max-width:100%; margin:0 0 22px; overflow-x:auto; }
+.marketing-table-wrap:focus-visible { outline:2px solid var(--teal); outline-offset:3px; }
+.marketing-table { width:100%; min-width:460px; border-collapse:collapse; font-size:.8rem; font-variant-numeric:tabular-nums; }
+.marketing-table caption { text-align:left; color:var(--muted); font-size:.76rem; padding-bottom:10px; }
+.marketing-table th,.marketing-table td { padding:11px 10px; border-bottom:1px solid #303846; white-space:nowrap; }
+.marketing-table thead th { background:#202a36; color:#f2f5fa; font-weight:600; text-align:left; }
+.marketing-table tbody th { color:#f2f5fa; font-weight:500; text-align:left; }
+.marketing-table td:nth-child(n+3),.marketing-table thead th:nth-child(n+3) { text-align:right; }
+.marketing-table tbody td:last-child { color:var(--teal); font-weight:600; }
 @media (max-width:700px) {
   .site-footer { padding:32px 22px; }
   .footer-inner { flex-direction:column; align-items:flex-start; gap:24px; }
