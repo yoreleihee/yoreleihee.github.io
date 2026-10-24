@@ -202,6 +202,8 @@ body { margin:0; background:var(--paper); color:var(--ink); font-family:'Noto Sa
 .project-actions a { display:inline-flex; align-items:center; gap:8px; min-height:44px; padding:10px 17px; border:1px solid var(--teal); border-radius:22px; color:var(--teal); background:rgba(0,207,185,.08); text-decoration:none; font-size:.85rem; font-weight:600; }
 .project-actions a:hover { color:#071313; border-color:var(--teal); background:var(--teal); }
 .project-actions a:focus-visible { outline:2px solid var(--teal); outline-offset:4px; }
+.project-actions a.github-icon-link { width:44px; height:44px; padding:10px; justify-content:center; }
+.github-icon-link svg { flex-shrink:0; }
 .placeholder-thumb { display:flex; align-items:center; justify-content:center; color:rgba(224,245,245,.72); font:500 12px 'DM Mono',monospace; letter-spacing:.12em; background:linear-gradient(135deg,#1b3237,#20262d); }
 /* Restore balanced section spacing without the original large gaps. */
 main > .ruled { border-top:0; padding-top:40px; padding-bottom:40px; }
