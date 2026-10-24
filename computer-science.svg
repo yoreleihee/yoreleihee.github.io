@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" role="img" aria-labelledby="title desc">
+  <title id="title">Computer Science</title>
+  <desc id="desc">컴퓨터 화면의 코드 기호와 연결된 노드로 표현한 컴퓨터과학 공통 썸네일</desc>
+  <rect width="960" height="340" fill="#182a3b"/>
+  <g fill="none" stroke="#47708c" stroke-width="2" opacity=".55">
+    <path d="M210 114h105m-75 80h75m330-80h105m-105 80h75"/>
+    <path d="M210 114v80h30m510-80v80h-30"/>
+    <circle cx="198" cy="114" r="10"/><circle cx="240" cy="206" r="10"/>
+    <circle cx="762" cy="114" r="10"/><circle cx="720" cy="206" r="10"/>
+  </g>
+  <g fill="none" stroke="#00cfb9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="344" y="55" width="272" height="170" rx="13"/>
+    <path d="M344 190h272m-136 35v26m-53 0h106"/>
+    <path d="m436 101-25 23 25 23m88-46 25 23-25 23m-31-55-25 64"/>
+  </g>
+  <text x="480" y="304" fill="#c8e3ee" font-family="monospace" font-size="23" font-weight="600" letter-spacing="6" text-anchor="middle">COMPUTER SCIENCE</text>
+</svg>
