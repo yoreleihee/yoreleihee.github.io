@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="695.865px" height="211.679px" viewBox="0 0 695.865 211.679" enable-background="new 0 0 695.865 211.679"
+	 xml:space="preserve">
+<g id="Layer_4">
+	<rect fill="#FFFFFF" width="695.865" height="211.679"/>
+</g>
+<g id="Layer_2">
+	<g>
+		<path fill="none" stroke="#5C7B9B" stroke-linecap="square" d="M107.833,83.847"/>
+		<polyline fill="#3C6391" stroke="#5C7B9B" stroke-linecap="round" stroke-linejoin="round" points="107.833,120.181 
+			107.833,138.302 142.667,102.014 107.833,64.847 107.833,83.847 6.5,83.847 6.5,120.181 107.833,120.181 		"/>
+	</g>
+	<polygon fill="#2F4D70" stroke="#5C7B9B" stroke-linecap="round" stroke-linejoin="round" points="23.833,66.347 6.5,83.847 
+		107.833,83.847 107.833,66.347 	"/>
+	<polygon fill="#3F6898" stroke="#5C7B9B" stroke-linecap="round" stroke-linejoin="round" points="125.667,48.847 158.833,84.68 
+		142.667,102.014 107.833,64.541 	"/>
+	<g>
+		<path fill="none" stroke="#5C7B9B" stroke-linecap="square" d="M635.833,83.847"/>
+		<polyline fill="#3C6391" stroke="#5C7B9B" stroke-linecap="round" stroke-linejoin="round" points="635.834,120.181 
+			635.834,138.302 670.666,102.014 635.833,64.847 635.834,83.847 522.5,83.847 522.5,120.181 635.834,120.181 		"/>
+	</g>
+	<polygon fill="#2F4D70" stroke="#5C7B9B" stroke-linecap="round" stroke-linejoin="round" points="539.834,66.347 522.5,83.847 
+		635.834,83.847 635.833,66.347 	"/>
+	<polygon fill="#3F6898" stroke="#5C7B9B" stroke-linecap="round" stroke-linejoin="round" points="653.666,48.847 689.834,84.68 
+		670.666,102.014 635.833,64.541 	"/>
+	
+		<rect x="164.668" y="61.395" fill="#4F81BD" stroke="#8DB3E2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" width="232.117" height="76.907"/>
+	<polygon fill="#719ACA" stroke="#8DB3E2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="190.5,35.183 
+		423.167,35.183 396.785,61.395 164.668,61.395 	"/>
+	<polygon fill="#3F6898" stroke="#8DB3E2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="
+		396.785,138.302 423.167,113.183 423.167,35.183 396.785,61.395 	"/>
+	<polygon fill="#4F81BD" stroke="#8DB3E2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="442.833,9.516 
+		509.167,9.516 476,89.849 	"/>
+	<polygon fill="#4F81BD" stroke="#8DB3E2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="
+		442.833,169.849 509.167,169.849 476,89.517 	"/>
+</g>
+<g id="Layer_3">
+	<text transform="matrix(1 0 0 1 23.7119 110.6826)" font-family="Arial'" font-size="23" font-weight="600">INPUT</text>
+	<text transform="matrix(1 0 0 1 531.7119 110.6826)" font-family="'Arial'" font-size="23" font-weight="600">OUTPUT</text>
+	<text transform="matrix(1 0 0 1 218.7119 110.6826)" font-family="'Arial'" font-size="23" font-weight="600">STORAGE</text>
+	<text transform="matrix(1 0 0 1 397.4131 201.4932)" font-family="'Arial'" font-size="23" font-weight="600">RESTRICTION</text>
+</g>
+</svg>
